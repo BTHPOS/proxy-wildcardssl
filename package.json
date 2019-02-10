@@ -1,0 +1,22 @@
+{
+  "name": "proxy-wildcardssl",
+  "version": "1.0.0",
+  "description": "Reverse proxy using a shared wildcard certificate across multiple subdomains",
+  "main": "proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dondreytaylor/proxy-wildcardssl.git"
+  },
+  "author": "Dondrey Taylor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dondreytaylor/proxy-wildcardssl/issues"
+  },
+  "homepage": "https://github.com/dondreytaylor/proxy-wildcardssl#readme",
+  "dependencies": {
+    "redbird": "^0.9.0"
+  }
+}
