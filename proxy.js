@@ -3,10 +3,10 @@ var proxy = require('redbird')({
     secure: true,
     ssl: {
         port: 443,
-        key: "./ssl/private.key",
-        cert: "./ssl/certificate.cer",
+        key: "./ssl/_.bithereum.network_private_key.key",
+        cert: "./ssl/bithereum.network_ssl_certificate.cer",
     }
 });
 
-proxy.register("domain.com", "http://localhost:8000", {ssl: true});
-proxy.register("domain.com", "http://localhost:8001", {ssl: true});
+proxy.register("insight.bithereum.network", "http://localhost:3000", {ssl: true});
+proxy.register("explorer.bithereum.network", "http://localhost:8080", {ssl: true});
