@@ -9,3 +9,4 @@ var proxy = require('redbird')({
 });
 
 proxy.register("domain.com", "http://localhost:8000", {ssl: true});
+proxy.register("domain.com", "http://localhost:8001", {ssl: true});
