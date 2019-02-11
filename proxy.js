@@ -8,5 +8,10 @@ var proxy = require('redbird')({
     }
 });
 
+
 proxy.register("insight.bithereum.network", "http://localhost:3000", {ssl: false});
-proxy.register("explorer.bithereum.network", "http://localhost:8080", {ssl: false});
+proxy.register("explorer.bithereum.network", "http://localhost:3000", {ssl: false});
+
+
+
+
