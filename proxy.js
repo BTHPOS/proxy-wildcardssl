@@ -9,9 +9,9 @@ var proxy = require('redbird')({
 });
 
 
-proxy.register("insight.bithereum.network", "http://96.56.229.210:3000", {ssl: false});
-proxy.register("explorer.bithereum.network", "http://96.56.229.210:3000", {ssl: false});
-proxy.register("insight2.bithereum.network", "http://96.56.229.210:3000", {ssl: false});
+proxy.register("insight.bithereum.network", "http://3.90.43.240", {ssl: false});
+proxy.register("explorer.bithereum.network", "http://3.90.43.240", {ssl: false});
+proxy.register("insight2.bithereum.network", "http://3.90.43.240", {ssl: false});
 
 
 
